@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>David Attlee: Welcome</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body class="white">
+<div class="container white">
+    <div class="header">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="Welcome.html">
+                <li class="currentTab">Welcome</li>
+            </a>
+            <a href="CV.html">
+                <li>CV</li>
+            </a>
+            <a href="Hobbies.html">
+                <li>Hobbies</li>
+            </a>
+            <a href="Coursework.html">
+                <li>Coursework</li>
+            </a>
+            <a href="Animation.html">
+                <li>Animation</li>
+            </a>
+        </ul>
+    </div>
+    <section id="video" ></section>
+        <section id="fadeIn" class="white" style="display:none;">
+            <br><br>
+        <video width="800" height="auto"  controls>
+            <source src="welcomeVideo/Welcome.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </section>
+<div id="footer" class="white">
+    <h2 id="who">"The future belongs to those that prepare for it today"<br>
+        - Malcolm X</h2>
+
+    <div class="beSocial">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/david-attlee-7b929194"><img src="images/linkedin.png"/></a></li>
+            <li><a href="https://twitter.com/Dattlee"><img src="images/twitter.png"/></a></li>
+            <li><a href="https://www.instagram.com/dattlee/"><img src="images/instagram.png"/></a></li>
+            <li><a href="mailto:da284@sussex.ac.uk"><img src="images/at_icon.png"/></a></li>
+            <li><a href="https://www.facebook.com/David.Attlee"><img src="images/facebook.png"/></a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        fadeInVideo();
+       function fadeInVideo(){
+           $("#fadeIn").fadeIn(1000);
+
+       }
+    });
+</script>
+</body>
+</html>

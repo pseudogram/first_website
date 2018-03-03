@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+    width: 968px;
+    background: #FFF;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+#main_image {
+	background-image: url(../images/main.jpg);
+	background-repeat: no-repeat;
+	height: 376px;
+	width: 968px;
+	position: relative;
+	border-radius: 10px;
+}
+#left_column, #center_column, #right_column {
+    width: 316px;
+    float: left;
+}
+#center_column, #right_column {
+    margin-left: 10px;
+}
+h1 {
+    font-family: sarina, serif;
+    font-size: 96px;
+    margin: 0;
+    float: left;
+}
+#header {
+    color: #FFF;
+    background-color: #000;
+    height: 100px;
+    position: relative;
+}
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3B3B3B;
+    background-color: #FFF;
+    margin: 0px;
+}
+#header p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+#header a {
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100px;
+}
+#header ul li {
+    float: left;
+}
+#header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#main_text {
+	background-color: #FFF;
+	background-color: rgba(255,255,255,0.8);
+	width: 300px;
+	position: absolute;
+	right: 60px;
+	bottom: 60px;
+	padding: 12px;
+	border-radius: 10px;
+}
+#main_text h3 {
+	font-size: 16px;
+	margin: 0px;
+}
+#main_text h2 {
+	color: #008CC3;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+#main_text p {
+	font-size: 14px;
+	line-height: 1.2;
+	margin: 0px;
+}
+.two_col #left_column {
+	color: #FFF;
+	background-color: #666;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.two_col #right_column {
+	width: 622px;
+}
+.post_header {
+	background-color: #999;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.post_header h3 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.two_col #right_column p {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#right_column .post_header p {
+	font-size: 12px;
+	color: #FFF;
+	margin: 0px;
+	padding-left: 0px;
+}
+.two_col h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 72px;
+	font-variant: small-caps;
+	text-align: center;
+	word-spacing: 0.3em;
+	clear: left;
+	position: relative;
+	top: -30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: -35px;
+	margin-left: 0px;
+}
+#header h1 a {
+	font-size: 96px;
+	font-variant: normal;
+	width: auto;
+}
